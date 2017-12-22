@@ -56,7 +56,17 @@ class VideoCell: UICollectionViewCell {
         addSubview(separator)
         
         
+        var topAnchor = self.topAnchor
+        var leftAnchor = self.leftAnchor
+        var bottomAnchor = self.bottomAnchor
+        var rightAnchor = self.rightAnchor
         
+        if #available(iOS 11, *) {
+            topAnchor =  safeAreaLayoutGuide.topAnchor
+            leftAnchor = safeAreaLayoutGuide.leftAnchor
+            bottomAnchor = safeAreaLayoutGuide.bottomAnchor
+            rightAnchor = safeAreaLayoutGuide.rightAnchor
+        }
 
         imageView.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 12).isActive = true
         imageView.topAnchor.constraint(equalTo: topAnchor, constant: 12).isActive = true
