@@ -1,17 +1,32 @@
 [
     {
         "title": "Apple Sample Video",
-        "imageUrl": "http://someUrl",
+        "imageUrl": "http://www.apple.someUrl",
         "provider": "apple"
     },
     {
         "title": "HBO Sample Video",
-        "imageUrl": "http://someUrl",
+        "imageUrl": "http://www.hbo.someUrl",
         "provider": "hbo"
     },
     {
         "title": "Amazon Sample Video",
-        "imageUrl": "http://someUrl",
+        "imageUrl": "http://www.amz.someUrl",
         "provider": "amazon"
+    },
+    {
+        "title": "Apple Sample Video",
+        "imageUrl": "http://www.apple.someUrl",
+        "provider": "apple"
+    },
+    {
+         "title": "HBO Sample Video",
+         "imageUrl": "http://www.hbo.someUrl",
+         "provider": "hbo"
+         },
+    {
+         "title": "Amazon Sample Video",
+         "imageUrl": "http://www.amz.someUrl",
+         "provider": "amazon"
     }
 ]
