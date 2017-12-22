@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Apple Sample Video",
+        "imageUrl": "http://someUrl",
+        "provider": "apple"
+    },
+    {
+        "title": "HBO Sample Video",
+        "imageUrl": "http://someUrl",
+        "provider": "hbo"
+    },
+    {
+        "title": "Amazon Sample Video",
+        "imageUrl": "http://someUrl",
+        "provider": "amazon"
+    }
+]
